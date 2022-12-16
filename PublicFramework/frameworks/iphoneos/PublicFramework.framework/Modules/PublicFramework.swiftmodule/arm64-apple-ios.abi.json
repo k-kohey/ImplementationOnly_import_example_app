@@ -1,0 +1,42 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "InternalPackage",
+        "printedName": "InternalPackage",
+        "declKind": "Import",
+        "moduleName": "PublicFramework",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "publicAPI",
+        "printedName": "publicAPI()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:15PublicFramework9publicAPIyyF",
+        "mangledName": "$s15PublicFramework9publicAPIyyF",
+        "moduleName": "PublicFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

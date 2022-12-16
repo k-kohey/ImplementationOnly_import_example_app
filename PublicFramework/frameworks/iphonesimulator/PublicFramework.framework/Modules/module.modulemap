@@ -1,0 +1,11 @@
+framework module PublicFramework {
+  umbrella header "PublicFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module PublicFramework.Swift {
+  header "PublicFramework-Swift.h"
+  requires objc
+}
